@@ -41,7 +41,9 @@
   text-decoration: underline;
   cursor: pointer;
 }
-
+a {
+  color: grey;
+}
 .country-ul li {
   list-style: none;
 }

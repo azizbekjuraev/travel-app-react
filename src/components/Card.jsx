@@ -10,11 +10,15 @@ export default function ({ item }) {
             <img src="./img/Fill 219.png" />
           </ul>
           <li>{item.country}</li>
-          <li className="grey">View on Google Maps</li>
+          <li className="grey">
+            <a href={item.link}>View on Google Maps</a>
+          </li>
         </div>
         <h1 className="header">{item.place}</h1>
         <div className="card-date-bold">
-          <p>{item.date}</p>
+          <p>
+            {item.startdate} - {item.enddate}
+          </p>
         </div>
         <div className="card-info">
           <p>{item.info}</p>
