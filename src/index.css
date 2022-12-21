@@ -39,6 +39,7 @@
 .grey {
   color: grey;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .country-ul li {
