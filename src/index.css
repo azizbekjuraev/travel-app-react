@@ -59,3 +59,19 @@ a {
 .card-info {
   line-height: 1.3rem;
 }
+
+@media (max-width: 500px) {
+  .card-container {
+    display: block;
+    text-align: center;
+  }
+  .card-img {
+    width: auto;
+  }
+  .country-ul {
+    display: block;
+  }
+  body {
+    min-width: 300px;
+  }
+}
