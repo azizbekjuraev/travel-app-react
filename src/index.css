@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 1rem;
+  padding: 1.5rem;
   color: #fff;
 }
 
@@ -59,8 +59,11 @@ a {
 .card-info {
   line-height: 1.3rem;
 }
+.card-info p {
+  width: 40%;
+}
 
-@media (max-width: 500px) {
+@media (max-width: 770px) {
   .card-container {
     display: block;
     text-align: center;
@@ -68,6 +71,10 @@ a {
   .card-img {
     width: auto;
   }
+  .card-info p {
+    width: auto;
+  }
+
   .country-ul {
     display: block;
   }
